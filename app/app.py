@@ -74,7 +74,7 @@ with st.sidebar:
     st.divider()
     st.caption("Model: ResNet-50 | Framework: PyTorch + Flower FL")
 
-# ── Model loading ─────────────────────────────────────────────────────────────
+# ── Models loading ─────────────────────────────────────────────────────────────
 @st.cache_resource(show_spinner="Loading model…")
 def load_model(model_file):
     model_path = os.path.join(MODELS_DIR, model_file)
