@@ -1,4 +1,3 @@
-# scripts/run_fl_server.py
 """
 Entry point for FL simulation.
 Runs full federated training on single machine using server.py simulation loop.
