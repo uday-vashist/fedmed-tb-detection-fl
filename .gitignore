@@ -1,0 +1,25 @@
+# datasets
+data/
+
+# training outputs
+results/
+
+# python cache
+__pycache__/
+*.pyc
+
+# model weights
+*.pth
+*.pt
+
+# OS files
+.DS_Store
+**/.DS_Store
+
+# image files
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+*.tif
